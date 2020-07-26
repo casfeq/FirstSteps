@@ -18,9 +18,13 @@ echo "$1" | sudo -S apt -y install --install-recommends libcgal-dev
 echo "$1" | sudo -S apt -y install --install-recommends tetgen libtet1.5-dev 
 echo "$1" | sudo -S apt -y install --install-recommends libmshr-dev python3-mshr
 echo "$1" | sudo -S apt -y install --install-recommends fenics
-pip3 install numpy
+echo "$1" | sudo -S apt -y install --install-recommends gmsh
+pip3 install dicttoxml
 pip3 install matplotlib
-pip3 install petsc4py
+pip3 install numpy
 pip3 install mpi4py
+pip3 install petsc4py
+pip3 install scipy
 pip3 install slepc4py
+pip3 install xmlformatter
 pip3 install meshio[all]

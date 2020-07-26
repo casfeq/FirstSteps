@@ -40,6 +40,7 @@ This routine install the following packages (and dependencies):
 - [FEniCS](https://fenicsproject.org/);
 - [FFC](https://fenics.readthedocs.io/projects/ffc/en/latest/installation.html);
 - [GMP](https://gmplib.org/);
+- [Gmsh](https://gmsh.info/);
 - [HDF5](https://www.hdfgroup.org/solutions/hdf5/);
 - [MPFR](https://www.mpfr.org/);
 - [Mshr](https://bitbucket.org/fenics-project/mshr/src/master/);
@@ -57,18 +58,22 @@ This routine install the following packages (and dependencies):
 ### Python Libraries
 
 Also, the following Python libraries are installed:
+- [Dicttoxml](https://pypi.org/project/dicttoxml/);
 - [Matplotlib](https://matplotlib.org/);
 - [Meshio](https://pypi.org/project/meshio/);
 - [Mpi4py](https://pypi.org/project/mpi4py/);
 - [NumPy](https://numpy.org/);
 - [Petsc4py](https://pypi.org/project/petsc4py/);
-- [Slepc4py](https://pypi.org/project/slepc4py/).
+- [SciPy](https://www.scipy.org/);
+- [Slepc4py](https://pypi.org/project/slepc4py/);
+- [Xmlformatter](https://pypi.org/project/xmlformatter/).
 
 ## Utilities (/sh/utilities.sh)
 
 This routine removes Mozilla Firefox (which is standard in Ubuntu fresh installations) and install the following softwares:
 - [Google Chrome](https://www.google.com/chrome/);
 - [GIMP](https://www.gimp.org/);
+- [Gparted](https://gparted.org/);
 - [Microsoft To-Do for Ubuntu](https://snapcraft.io/ao);
 - [Mpv](https://mpv.io/);
 - [Pinta](https://pinta-project.com/pintaproject/pinta/);
