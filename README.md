@@ -1,4 +1,5 @@
 # Ubuntu
+
 My first steps after a clean Ubuntu installation. Tested in Ubuntu 18.04, 19.10 and 20.04.
 
 ## Usage
@@ -87,8 +88,5 @@ The routines in the /py folder install the following programs:
 - [Mendeley](https://www.mendeley.com/);
 - [Multiphenics](https://github.com/mathLab/multiphenics);
 - [ParaView](https://www.paraview.org/);
+- [RBniCS](https://www.rbnicsproject.org/);
 - [Skype](https://www.skype.com/).
-
-## Final
-
-The last two routines are used for git configuration (/sh/git.sh) and for fixing broken packages (update.sh). Finally, the last command adjust the system clock for fixing the time difference in Windows/Ubuntu.
